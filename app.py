@@ -45,10 +45,6 @@ def main():
     """,
     unsafe_allow_html=True
     )
-    st.markdown(
-    """body {font-family: Arial, sans-serif; color: maroon}""",
-    unsafe_allow_html=True
-    )
     if st.button("Predict"):
         result= predict_class(img)
         classes_file = open("traffic_classes.txt", "r")
