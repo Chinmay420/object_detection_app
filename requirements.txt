@@ -1,8 +1,8 @@
+base64
 altair
 pandas
 streamlit
 tensorflow
-base64
 PIL
 ast
 cv2
