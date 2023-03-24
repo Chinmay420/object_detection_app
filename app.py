@@ -5,6 +5,8 @@ import base64
 from tensorflow.keras.preprocessing.image import load_img, img_to_array, smart_resize
 from tensorflow import keras
 from PIL import Image
+import os
+os.environ['LD_LIBRARY_PATH'] = '/usr/local/lib:/usr/lib/x86_64-linux-gnu:/usr/lib'
 import cv2
 import ast
 model = keras.models.load_model('best_our_model.h5')
