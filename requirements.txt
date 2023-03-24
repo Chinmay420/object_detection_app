@@ -1,4 +1,4 @@
-base64
+pybase64
 altair
 pandas
 streamlit
