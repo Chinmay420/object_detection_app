@@ -1,7 +1,7 @@
+opencv-python
 pybase64
 altair
 pandas
 streamlit
 tensorflow
 Pillow
-opencv-python
