@@ -4,5 +4,4 @@ pandas
 streamlit
 tensorflow
 Pillow
-ast
 cv2
