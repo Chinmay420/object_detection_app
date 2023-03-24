@@ -25,7 +25,10 @@ def process_image(img):
         img = img.reshape(1,32,32,1)
         return img
 def main():
+    st.set_page_config(page_title="My Streamlit App", page_icon=":memo:", layout="wide", initial_sidebar_state="expanded", font="serif", )
     st.title("Road object predictor")
+    st.markdown('<style>div{color: Gray;}</style>', unsafe_allow_html=True)
+    st.markdown('<style>h1{color: Gray;}</style>', unsafe_allow_html=True)
     img = st.file_uploader('Insert your image', type = ['png'])
     img =process_image(img)
     result = ""
