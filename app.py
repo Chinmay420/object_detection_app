@@ -20,7 +20,7 @@ def process_image(img):
         img = np.array(image)
         img = smart_resize(img, (32,32))
         img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-        st.image(image, caption="Uploaded Image")
+        st.image(image, caption="Uploaded Image", height=300, width=300)
         img = (img - 32)/32
         img = img.reshape(1,32,32,1)
         return img
