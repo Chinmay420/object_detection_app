@@ -29,6 +29,7 @@ def main():
     st.title("Road object predictor")
     st.markdown('<style>div{color: #7393B3;}</style>', unsafe_allow_html=True)
     st.markdown('<style>h1{color: #7393B3;}</style>', unsafe_allow_html=True)
+    st.markdown('<style>p{color: #000000;}</style>', unsafe_allow_html=True)
     img = st.file_uploader('Insert your image', type = ['png'])
     img =process_image(img)
     result = ""
