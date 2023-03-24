@@ -3,6 +3,6 @@ altair
 pandas
 streamlit
 tensorflow
-PIL
+Pillow
 ast
 cv2
