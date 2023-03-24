@@ -39,7 +39,9 @@ def main():
     <style>
     .stApp {{
         background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
-        background-size: cover
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: red
     }}
     </style>
     """,
