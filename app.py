@@ -25,7 +25,7 @@ def process_image(img):
         img = img.reshape(1,32,32,1)
         return img
 def main():
-    st.set_page_config(page_title="My Streamlit App", page_icon=":memo:", layout="wide", initial_sidebar_state="expanded", font="serif")
+    st.set_page_config(page_title="My Streamlit App", page_icon=":memo:", layout="wide", initial_sidebar_state="expanded", css="""body {font-family: Arial, sans-serif; color: red}""")
     st.title("Road object predictor")
     st.markdown('<style>div{color: Gray;}</style>', unsafe_allow_html=True)
     st.markdown('<style>h1{color: Gray;}</style>', unsafe_allow_html=True)
