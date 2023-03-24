@@ -27,8 +27,8 @@ def process_image(img):
 def main():
     st.set_page_config(page_title="My Streamlit App", page_icon=":memo:", layout="wide", initial_sidebar_state="expanded")
     st.title("Road object predictor")
-    st.markdown('<style>div{color: Gray;}</style>', unsafe_allow_html=True)
-    st.markdown('<style>h1{color: Gray;}</style>', unsafe_allow_html=True)
+    st.markdown('<style>div{color: Maroon;}</style>', unsafe_allow_html=True)
+    st.markdown('<style>h1{color: Maroon;}</style>', unsafe_allow_html=True)
     img = st.file_uploader('Insert your image', type = ['png'])
     img =process_image(img)
     result = ""
@@ -40,8 +40,6 @@ def main():
     .stApp {{
         background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
         background-size: cover;
-        font-family: Arial, sans-serif;
-        color: red
     }}
     </style>
     """,
